@@ -22,6 +22,17 @@ body {
     clear: both;
   }
 
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 40px;
+    overflow: auto;
+    color: rgb(42, 139, 181);
+    background: rgb(42, 139, 181);
+    border-bottom: 2px solid rgb(42, 139, 181);
+  }
+
   #logo {
     float: left;
     width: 250px;
@@ -57,4 +68,47 @@ body {
   
   nav a:hover {
     color: #31a394;
+  }
+  
+  footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: rgb(42, 139, 181);
+    border-top: 10px solid rgb(42, 139, 181);
+    height: 50px;
+  }
+  
+  footer a {
+    float: right;
+    color: rgb(42, 139, 181);
+  }
+  
+  footer a:hover {
+    color: #ffffff;
+  }
+  
+  h3, h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  #main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
   }
